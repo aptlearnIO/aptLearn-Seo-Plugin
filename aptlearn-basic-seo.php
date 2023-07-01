@@ -224,7 +224,7 @@ add_action('template_redirect', 'aptlearn_basic_seo_redirect_old_urls');
 // Function to insert AdSense auto ads
 function aptlearn_basic_seo_insert_adsense_auto_ads() {
     ?>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9399980668842798" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-000000000000000" crossorigin="anonymous"></script>
     <?php
 }
 add_action('wp_head', 'aptlearn_basic_seo_insert_adsense_auto_ads');
